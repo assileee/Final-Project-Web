@@ -46,7 +46,8 @@ function buttonTwoFn(e) {
 	confirmBtn.innerText = "Confirm";
 	confirmBtn.addEventListener("click", async () => {
 		const response = await deleteUser(userId);
-		if (response.message === "User deleted!") {
+		console.log(response);
+		if (response.message === "User deleted !") {
 			init();
 		}
 	});

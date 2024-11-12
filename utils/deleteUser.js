@@ -18,6 +18,5 @@ export async function deleteUser(userId) {
 		return data
 	} catch (error) {
 		console.log(error)
-		return data
 	}
 }
